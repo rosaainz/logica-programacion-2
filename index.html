@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Conversión de Temperaturas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Calculadora para Convertir Temperatura Celcius a Kelvin y Fahrenheit</h1>
+        <form id="formTemp" method="post" action="/convert">
+            <label for="floatingInputDisabled">Temperatura en °C:</label>
+            <input type="text" id="celsius" name="celsius" required>
+            <button type="submit">Convertir</button>
+        </form>
+
+        <p id="result"></p>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
