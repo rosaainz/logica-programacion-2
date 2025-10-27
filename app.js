@@ -15,10 +15,11 @@ document.getElementById('formTemp').addEventListener("submit", function(event) {
 
     result.style.color = "black";
     result.innerHTML = `
+         <strong>Resultados:</strong>
         <p>${celsius.toFixed(2)} °C son:</p>
-        <ul>
-            <li>${kelvin.toFixed(2)} K</li>
-            <li>${farenheit.toFixed(2)} °F</li>
-        </ul>
+        <div class="results-container white-box">
+        <p>${kelvin.toFixed(2)} K</p>
+        <p>${farenheit.toFixed(2)} °F</p>
+        </div>
     `;
 });

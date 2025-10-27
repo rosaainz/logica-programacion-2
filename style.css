@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    background-color: blueviolet;       
+  }
+
+  body {
+    background-color: blueviolet !important; 
+    }
+
+  .title {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+
+  #formTemp {
+    background-color: thistle;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px auto;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+   
+  }
+
+  .convertir{
+    text-align: center;
+  }
+
+.convertir button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 4px;
+  }
+
+  .convertir button:hover {
+    color: blueviolet;
+    transform: scale(1.1); 
+  }
+
+  .resultado{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    color: grey;
+    background-color: thistle;
+    border-radius: 8px;
+  }
+
+  .white-box {
+    background-color: white;
+    padding: 5px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.resultado:hover{
+    transform: scale(1.1); 
+}
+
